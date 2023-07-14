@@ -1,0 +1,75 @@
+*{
+    font-family: 'Kanit', sans-serif;
+}
+                         /* Header Section*/
+.header{
+    height: 10vh;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    align-items: center;    
+}
+.nav{
+    flex: 1;
+    justify-content: space-around;
+    display: flex;
+}
+
+a:link{ 
+    text-decoration: none;
+    color: rgb(56,56,56);
+    font-size: 20pt;
+}
+a:hover{
+    color: darkolivegreen;
+}
+a:visited{
+    color: rgb(56,56,56);
+}
+
+.contact{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+}
+
+.contact_btn{
+    background-color: white;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 16pt;
+    border: 4px solid darkolivegreen;
+    border-radius: 20px;
+    width: 15vw;
+    min-width: 120px;
+    padding: 1.5%;
+}
+/* Main Section */
+.main{
+    height: 90vh;
+    width: 85vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+    margin-top: -5vh;
+    flex-wrap: wrap;
+}
+h1{font-size: 30pt;}
+p{font-size: 14pt;}
+.content{
+    flex: 2;
+    min-width: 400px;
+}
+.hero{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+}
+.hero_img{
+    width: 90vh;
+    
+}
+
+
+
